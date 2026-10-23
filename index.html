@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Muhammad Waleed is a Software Engineering student in Peshawar, Pakistan, building responsive web applications and exploring MERN stack development." />
+    <meta name="theme-color" content="#0b1120" />
+    <title>Muhammad Waleed | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <!-- Navbar will go here -->
+
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Muhammad Waleed home">Muhammad<span>Waleed</span></a>
+
+      <button
+        class="hamburger"
+        id="hamburger"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="navMenu"
+        aria-expanded="false"
+      >
+        <i class="fa-solid fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#contact" class="lets-talk">Let's Talk</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle theme" title="Toggle theme">
+            <i class="fa-regular fa-sun" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section will go here -->
+    <main id="main-content">
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="green-dot"></span>
+          Available for freelance projects
+        </div>
+
+        <p class="intro">Hello, I'm <span>Muhammad Waleed</span></p>
+
+        <h1>
+          AI & MERN Stack
+          <span>Developer</span>
+        </h1>
+
+        <p class="hero-description">
+          I build modern, responsive, and user-friendly web applications using
+          the MERN stack and AI-powered tools. I enjoy turning ideas into
+          practical digital solutions.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">
+            View My Projects <i class="fa-solid fa-arrow-right"></i>
+          </a>
+
+          <a href="#contact" class="btn-secondary">
+            Let's Talk <i class="fa-regular fa-paper-plane"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- About section will go here -->
+
+    <section class="about" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="portfolio.png" alt="Portrait of Muhammad Waleed" width="600" height="600" fetchpriority="low" />
+        </div>
+
+        <div class="about-content">
+          <span class="section-label">ABOUT ME</span>
+
+          <h2>Who <span>I Am</span></h2>
+
+          <p>
+            I'm a Software Engineering student and aspiring Full Stack Developer
+            passionate about building modern web applications using JavaScript,
+            React, Node.js, and AI-powered tools. I enjoy learning new
+            technologies and turning ideas into practical digital solutions.
+          </p>
+
+          <div class="about-details">
+            <p>
+              <i class="fa-solid fa-graduation-cap"></i> BS Software Engineering
+            </p>
+
+            <p><i class="fa-solid fa-location-dot"></i> Peshawar, Pakistan</p>
+
+            <p>
+              <i class="fa-solid fa-code"></i> Frontend & MERN Stack Development
+            </p>
+
+            <p><i class="fa-solid fa-envelope"></i> Open to opportunities</p>
+          </div>
+
+          <a href="#contact" class="btn-primary"
+            >Let's Work Together
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section will go here -->
+
+    <section class="skills" id="skills">
+      <div class="skills-container">
+        <span class="section-label">MY SKILLS</span>
+        <h2>Technologies I <span>Work With</span></h2>
+
+        <p class="skills-description">
+          I use modern technologies to build responsive and user-friendly web
+          applications.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <i class="fa-brands fa-html5"></i>
+            <h3>HTML</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h3>CSS</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-js"></i>
+            <h3>JavaScript</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-react"></i>
+            <h3>React</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-node-js"></i>
+            <h3>Node.js</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-solid fa-database"></i>
+            <h3>MongoDB</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-git-alt"></i>
+            <h3>Git</h3>
+          </div>
+
+          <div class="skill-card">
+            <i class="fa-brands fa-github"></i>
+            <h3>GitHub</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section will go here -->
+    <section class="projects" id="projects">
+      <div class="projects-container">
+        <span class="section-label">MY WORK</span>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="projects-description">
+          Here are some projects I have built while learning web development.
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="project-content">
+              <h3>E-Commerce Website</h3>
+              <p>
+                A responsive online store with products and a shopping cart.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-link project-link-disabled" aria-label="Project demo link coming soon">Project demo coming soon</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fa-solid fa-list-check"></i>
+            </div>
+            <div class="project-content">
+              <h3>Task Management App</h3>
+              <p>Manage daily tasks, track progress, and stay organized.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <span class="project-link project-link-disabled" aria-label="Project demo link coming soon">Project demo coming soon</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fa-solid fa-cloud-sun"></i>
+            </div>
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>Check weather conditions using a weather API.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>API</span>
+              </div>
+              <span class="project-link project-link-disabled" aria-label="Project demo link coming soon">Project demo coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section will go here -->
+
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-heading">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2>Let's Work <span>Together</span></h2>
+          <p>Have an idea or project? Let's turn it into something great.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact information -->
+          <div class="contact-info">
+            <div class="availability-badge">
+              <span class="availability-dot"></span>
+              Available for work
+            </div>
+
+            <h3>Let's build something amazing.</h3>
+            <p class="contact-info-text">
+              I'm open to web development projects, freelance work, and
+              internship opportunities.
+            </p>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:YOUR_EMAIL@example.com">
+                  YOUR_EMAIL@example.com
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Peshawar, Pakistan</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-regular fa-clock"></i>
+              </div>
+              <div>
+                <h4>Response time</h4>
+                <p>Usually within 24–48 hours</p>
+              </div>
+            </div>
+
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/92YOURNUMBER"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="whatsapp-btn"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              Chat on WhatsApp
+            </a>
+
+            <!-- Social profiles -->
+            <div class="contact-socials">
+              <span>Find me online</span>
+              <a
+                href="https://github.com/YOUR_USERNAME"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/YOUR_USERNAME/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+
+            <!-- Map -->
+            <div class="contact-map">
+              <iframe
+                src="https://maps.google.com/maps?q=Peshawar%2C%20Pakistan&output=embed"
+                title="Map showing Peshawar, Pakistan"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+
+            <!-- Download CV -->
+            <a href="Muhammad-Waleed-CV.pdf" class="cv-download" download>
+              <i class="fa-solid fa-download"></i>
+              Download My CV
+            </a>
+          </div>
+
+          <!-- Right: Contact form -->
+          <div class="contact-form-card">
+            <h3>Send Me a Message</h3>
+            <p class="form-description">
+              Fill out the form below and tell me about your project.
+            </p>
+
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contactName">Your Name</label>
+                  <input
+                    id="contactName"
+                    name="name"
+                    type="text"
+                    placeholder="John Doe"
+                    required
+                  />
+                </div>
+
+                <div class="form-group">
+                  <label for="contactEmail">Your Email</label>
+                  <input
+                    id="contactEmail"
+                    name="email"
+                    type="email"
+                    placeholder="john@example.com"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contactSubject">Subject</label>
+                <input
+                  id="contactSubject"
+                  name="subject"
+                  type="text"
+                  placeholder="Project inquiry"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Your Message</label>
+                <textarea
+                  id="contactMessage"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me about your project..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="contact-submit">
+                Send Message
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <p class="form-note">
+                <i class="fa-solid fa-lock"></i>
+                Your details should only be used to respond to your inquiry.
+              </p>
+            </form>
+
+            <div class="contact-extra">
+              <h4><i class="fa-solid fa-star"></i> Why Work With Me?</h4>
+
+              <div class="contact-benefits">
+                <div>
+                  <i class="fa-solid fa-code"></i>
+                  <span>Clean, modern code</span>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-mobile-screen"></i>
+                  <span>Responsive websites</span>
+                </div>
+
+                <div>
+                  <i class="fa-solid fa-comments"></i>
+                  <span>Clear communication</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <a href="#home" class="footer-logo"> Muhammad<span>Waleed</span> </a>
+
+        <p>Building modern web experiences with passion.</p>
+
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/YOUR_USERNAME"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/YOUR_USERNAME/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Muhammad Waleed. All rights reserved.</p>
+          <a href="#home">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
